@@ -1,2 +1,46 @@
-# weather-application
-Hello developers this is Sahil with new project , A weather application which show you weather of any country and any place which is possible to show and it is made on python and it's library PyQt5
+# Weather Application
+
+A simple desktop weather application built using Python and PyQt5.
+
+## Features
+
+- Search weather by city
+- Display temperature
+- Simple GUI interface
+- Real-time weather data using OpenWeather API
+
+## Technologies Used
+
+- Python
+- PyQt5
+- Requests
+- OpenWeather API
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/weather-application.git
+```
+
+Install dependencies:
+
+```bash
+pip install PyQt5 requests python-dotenv
+```
+
+## Usage
+
+Run the application:
+
+```bash
+python main.py
+```
+
+## Future Improvements
+
+- Add weather icons
+- Improve UI design
+- Add humidity and wind speed
+- Add error handling
