@@ -7,6 +7,7 @@ A simple desktop weather application built using Python and PyQt5.
 - Search weather by city
 - Display temperature
 - Simple GUI interface
+- Error handling
 - Real-time weather data using OpenWeather API
 
 ## Technologies Used
@@ -39,8 +40,5 @@ python main.py
 ```
 
 ## Future Improvements
-
-- Add weather icons
 - Improve UI design
 - Add humidity and wind speed
-- Add error handling
