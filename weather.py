@@ -130,7 +130,6 @@ class WeatherApp(QWidget):
 
             if weather_data["cod"] == 200:
                 self.temperature_label.setStyleSheet("font-size: 70px;")
-                print(weather_data)
 
                 # access temperature from json 
                 temperature = weather_data['main']['temp']
@@ -167,6 +166,7 @@ class WeatherApp(QWidget):
                     self.display_error("Gateway Timeout:\n No response from the server")
                 case _:
                     self.display_error(f"HTTP error occured: {http_error}")
+
         except requests.exceptions.ConnectionError:
             self.display_error("Connection error:\n check your internet connection")
         except requests.exceptions.TooManyRedirects:
@@ -206,14 +206,7 @@ class WeatherApp(QWidget):
             return '☁️'
         else:
             return ""
-        
-
-
-        
-
-        
-
-
+    
 
 
 
